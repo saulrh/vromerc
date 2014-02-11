@@ -3,3 +3,13 @@
 
 map D dc
 map dc D
+
+
+set searchengines += {
+    "w":"http://en.wikipedia.org/wiki/{{keyword}}",
+    "g":"http://www.google.com/search?q={{keyword}}",
+    "dota":"http://dota2.gamepedia.com/index.php?search={{keyword}}",
+    "wikt":"http://en.wiktionary.org/wiki/Special:Search?search={{keyword}}",
+    "quote":"http://en.wikiquote.org/w/index.php?search={{keyword}}",
+    "image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}",
+}
