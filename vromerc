@@ -1,0 +1,5 @@
+" Saul Reynolds-Haertle's configuration file for vrome
+" not taht im' going to use this - kind of sucks compared to vimperator
+
+map D dc
+map dc D
