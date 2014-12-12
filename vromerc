@@ -1,8 +1,18 @@
 " Saul Reynolds-Haertle's configuration file for vrome
-" not taht im' going to use this - kind of sucks compared to vimperator
 
-map D dc
-map dc D
+" unmap all the odd tab closing options - we'll stick with something more like vimperator.
+unmap dc
+unmap dm
+unmap do
+unmap dl
+unmap dr
+unmap dp
+unmap dP
+unmap dW
+
+" simple tab closing. hit d to kill the current tab.
+map d dc
+
 
 
 set searchengines += {
@@ -12,4 +22,5 @@ set searchengines += {
     "wikt":"http://en.wiktionary.org/wiki/Special:Search?search={{keyword}}",
     "quote":"http://en.wikiquote.org/w/index.php?search={{keyword}}",
     "image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}",
+    "sch":"http://scholar.google.com/scholar?hl=en&q={{keyword}}&btnG=&as_sdt=1%2C11&as_sdtp="
 }
