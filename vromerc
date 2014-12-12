@@ -1,7 +1,6 @@
 " Saul Reynolds-Haertle's configuration file for vrome
 
 " unmap all the odd tab closing options - we'll stick with something more like vimperator.
-unmap dc
 unmap dm
 unmap do
 unmap dl
