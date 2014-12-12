@@ -19,6 +19,9 @@ set autocomplete_next=<Tab>
 set autocomplete_prev_10=<Up>
 set autocomplete_next_10=<Down>
 
+" by default, hints use numbers. You can have both numbers AND strings (view custom JS below). Or you can use strings only as hints and overwr
+set useletters=0
+
 
 set searchengines += {
     "w":"http://en.wikipedia.org/wiki/{{keyword}}",
