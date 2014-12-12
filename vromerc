@@ -21,13 +21,10 @@ set autocomplete_next_10=<Down>
 " by default, hints use numbers. You can have both numbers AND strings (view custom JS below). Or you can use strings only as hints and overwr
 set useletters=0
 
-
-set searchengines += {
-    "w":"http://en.wikipedia.org/wiki/{{keyword}}",
-    "g":"http://www.google.com/search?q={{keyword}}",
-    "dota":"http://dota2.gamepedia.com/index.php?search={{keyword}}",
-    "wikt":"http://en.wiktionary.org/wiki/Special:Search?search={{keyword}}",
-    "quote":"http://en.wikiquote.org/w/index.php?search={{keyword}}",
-    "image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}",
-    "sch":"http://scholar.google.com/scholar?hl=en&q={{keyword}}&btnG=&as_sdt=1%2C11&as_sdtp="
-}
+set searchengines+={"w":"http://en.wikipedia.org/wiki/{{keyword}}"}
+set searchengines+={"g":"http://www.google.com/search?q={{keyword}}"}
+set searchengines+={"dota":"http://dota2.gamepedia.com/index.php?search={{keyword}}"}
+set searchengines+={"wikt":"http://en.wiktionary.org/wiki/Special:Search?search={{keyword}}"}
+set searchengines+={"quote":"http://en.wikiquote.org/w/index.php?search={{keyword}}"}
+set searchengines+={"image":"http://www.google.com/search?hl=en&tbm=isch&q={{keyword}}"}
+set searchengines+={"sch":"http://scholar.google.com/scholar?hl=en&q={{keyword}}&btnG=&as_sdt=1%2C11&as_sdtp="}
