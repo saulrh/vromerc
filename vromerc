@@ -13,6 +13,11 @@ unmap dW
 " simple tab closing. hit d to kill the current tab.
 map d dc
 
+" move through autocompletions by using tab and shift-tab instead of arrow keys
+set autocomplete_prev=<S-Tab>
+set autocomplete_next=<Tab>
+set autocomplete_prev_10=<Up>
+set autocomplete_next_10=<Down>
 
 
 set searchengines += {
